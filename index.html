@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Square Devise</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body {
+    font-family: "Lato", sans-serif
+  }
+</style>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)"
+        onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="#policy" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRIVACY POLICY</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+      </div>
+      <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
+          class="fa fa-search"></i></a>
+    </div>
+  </div>
+
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#policy" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">POLICY</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+
+  </div>
+
+  <!-- Page content -->
+  <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+    <!-- The Band Section -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="policy">
+      <h2 class="w3-wide">Privacy Policy</h2>
+      <!-- <p class="w3-opacity"><i>We love music</i></p> -->
+      <p class="w3-justify">This Privacy Policy explains how Rotation Agenda ("we," "our," or "the app") handles user data, if any, and your rights regarding this data. Please read this policy carefully.</p>
+
+  
+      <h4 style="text-align:left">
+        </h4style>Data Collection:</h2>
+        <p class="w3-justify">Rotation Agenda does not collect any personal information from its users. We do not gather, store, or process any data, including but not limited to names, email addresses, location data, or device information.</p>
+        <h4 style="text-align:left">
+          </h4style>Third-Party Services:</h2>
+          <p class="w3-justify">Rotation Agenda does not integrate with any third-party services or APIs that would require data sharing.
+          </p>
+          <h4 style="text-align:left">
+            </h4style>Data Security:</h2>
+            <p class="w3-justify">We prioritize the security and privacy of our users, even though we do not collect data. Our app is designed to ensure that any user information is stored locally on device.</p>
+            <h4 style="text-align:left">
+              </h4style>Permissions:</h2>
+              <p class="w3-justify">Rotation Agenda requires notification permission solely for the purpose of notifying users about upcoming events and agenda items. This permission is necessary to provide you with event reminders.</p>
+              <h4 style="text-align:left">
+                </h4style>Advertising and Analytics:</h2>
+                <p class="w3-justify">We do not use any advertising networks or analytics services in Rotation Agenda.</p>
+                <h4 style="text-align:left">
+                  </h4style>Children's Privacy:</h2>
+                  <p class="w3-justify">Rotation Agenda is not intended for use by children under the age of 13. We do not knowingly collect data from anyone under 13 years of age.</p>
+                  <h4 style="text-align:left">
+                    </h4style>Policy Updates:</h2>
+                    <p class="w3-justify">Any updates to this privacy policy will be made visible within the app. Please check the policy periodically for changes.</p>
+
+                    <h4 style="text-align:left">
+                      </h4style>Contact Information:</h2>
+                      <p class="w3-justify">If you have any questions, concerns, or requests related to your privacy or this privacy policy, please contact us via the contact form available on our website</p>
+
+
+                      <!-- The Contact Section -->
+                      <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+                        <h2 class="w3-wide w3-center">CONTACT</h2>
+                        <p class="w3-opacity w3-center"><i>Got a question ? leave us a message</i></p>
+                        <div class="w3-row w3-padding-32">
+                          <div class="w3-col m6 w3-large w3-margin-bottom">
+                            <!-- <i class="fa fa-map-marker" style="width:30px"></i> Algerie,<br> -->
+                            <!-- <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br> -->
+                            <!-- <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br> -->
+                          </div>
+                          <div class="w3-col m6">
+                            <form action="index.html" target="_blank">
+                              <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                                <div class="w3-half">
+                                  <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                                </div>
+                                <div class="w3-half">
+                                  <input class="w3-input w3-border" type="text" placeholder="Email" required
+                                    name="Email">
+                                </div>
+                              </div>
+                              <input class="w3-input w3-border" type="text" placeholder="Message" required
+                                name="Message">
+                              <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- End Page Content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <p class="w3-medium">Powered by Square Devise</p>
+    </footer>
+
+    <script>
+
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      var modal = document.getElementById('ticketModal');
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+
+</body>
